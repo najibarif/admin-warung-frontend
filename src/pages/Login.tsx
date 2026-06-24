@@ -32,7 +32,7 @@ export default function Login() {
           </div>
         </div>
         <h2 className="mt-6 text-center text-3xl font-extrabold text-slate-900">
-          Warung Berkah
+          Toko Nabil
         </h2>
         <p className="mt-2 text-center text-sm text-slate-600">
           Administrator Panel
@@ -59,7 +59,7 @@ export default function Login() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="input-field"
-                  placeholder="admin@warung.com"
+                  placeholder="admin@tokonabil.com"
                 />
               </div>
             </div>

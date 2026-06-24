@@ -47,7 +47,7 @@ export default function Dashboard() {
       <div className="flex justify-between items-center">
         <div>
           <h2 className="text-2xl font-extrabold text-slate-900 tracking-tight">Dashboard Admin</h2>
-          <p className="text-sm text-slate-500 mt-1">Halo {user?.name}, berikut adalah ringkasan performa warung hari ini.</p>
+          <p className="text-sm text-slate-500 mt-1">Halo {user?.name}, berikut adalah ringkasan performa toko hari ini.</p>
         </div>
         <div className="flex items-center gap-3 bg-emerald-50 text-emerald-800 px-4 py-2.5 rounded-xl border border-emerald-100 shadow-sm">
           <DollarSign className="w-5 h-5 text-emerald-600" />
@@ -143,7 +143,7 @@ export default function Dashboard() {
             </ul>
           </div>
           <div className="mt-8 pt-4 border-t border-white/10 text-xs opacity-75">
-            Warung Berkah System v1.1 • Premium Dashboard
+            Toko Nabil System v1.1 • Premium Dashboard
           </div>
         </div>
       </div>
