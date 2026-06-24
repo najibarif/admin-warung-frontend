@@ -139,7 +139,7 @@ export default function Products() {
       ...formData,
       price: parseFloat(formData.price),
       stock: parseInt(formData.stock),
-      expiration_discount: parseInt(formData.expiration_discount)
+      expiration_discount: formData.expiration_discount
     };
 
     if (formData.is_promo && formData.promo_price) {
