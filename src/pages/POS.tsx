@@ -130,6 +130,7 @@ export default function POS() {
         quantity: item.quantity
       })),
       amount_paid: paidNum,
+      payment_method: paymentMethod,
     };
 
     try {
